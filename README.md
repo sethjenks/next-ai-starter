@@ -82,6 +82,20 @@ agent-helpers/sample-code
 agent-helpers/scratchpad.md
 ```
 
+### 🌊 Windsurf Rules & Workflows
+
+Windsurf supports:
+
+- **Workspace rules** via `.windsurf/rules/*.md`
+- **Workflows (slash commands)** via `.windsurf/workflows/*.md` (invoke with `/workflow-name`)
+
+This repo includes Windsurf-ready equivalents in:
+
+- `windsurf/rules/next-ai-starter.md`
+- `windsurf/workflows/*`
+
+To enable them in Windsurf, copy these into `.windsurf/rules/` and `.windsurf/workflows/` (or create them via the Windsurf UI and paste the contents). See `WINDSURF.md`.
+
 ### 🤖 Cursor Custom Slash Commands
 
 Cursor has a feature that allows you to define custom slash commands for your AI agents. This is a great way to help your agents navigate the codebase and complete tasks efficiently.
